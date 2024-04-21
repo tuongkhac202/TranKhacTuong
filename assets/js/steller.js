@@ -33,9 +33,9 @@ $(document).ready(function(){
 
 // DOWNLOAD CV
 function downloadCV() {
-    var image = document.getElementById("myCV");
+    var file = document.getElementById("myCV");
     var link = document.createElement("a");
-    link.href = image.src;
-    link.download = "CV-Trần-Khắc-Tường.png";
+    link.href = file.src;
+    link.download = "CV-Trần-Khắc-Tường.pdf";
     link.click();
 }
