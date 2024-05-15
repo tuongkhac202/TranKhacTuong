@@ -11456,7 +11456,7 @@ pre {
 }
 
 .header {
-  height: 94vh;
+  height: 100vh;
   min-height: 650px;
   border-bottom: 1px solid #dee2e6;
 }
@@ -11555,7 +11555,7 @@ pre {
   display: flex;
   border: 1px solid #dee2e6;
   padding: 20px 0;
-  margin-top: -50px;
+  margin-top: -108px;
   z-index: 999;
   background: #fff;
   box-shadow: 0 0 30px rgba(173, 181, 189, 0.4);
