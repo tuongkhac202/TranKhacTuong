@@ -13,10 +13,10 @@
 */
 
 // smooth scroll
-$(document).ready(function(){
-	$(".nav-link").on('click', function(event) {
+$(document).ready(function () {
+	$(".nav-link").on('click', function (event) {
 
-    	if (this.hash !== "") {
+		if (this.hash !== "") {
 
 			event.preventDefault();
 
@@ -24,20 +24,20 @@ $(document).ready(function(){
 
 			$('html, body').animate({
 				scrollTop: $(hash).offset().top
-			}, 700, function(){
+			}, 700, function () {
 				window.location.hash = hash;
 			});
-      	} 
-    });
+		}
+	});
 });
 
 // DOWNLOAD CV
 function downloadCV() {
-    var file = document.getElementById("myCV");
-    var link = document.createElement("a");
-    link.href = file.src;
-    link.download = "CV-Trần-Khắc-Tường.pdf";
-    link.click();
+	var file = document.getElementById("myCV");
+	var link = document.createElement("a");
+	link.href = file.src;
+	link.download = "CV-Trần-Khắc-Tường.pdf";
+	link.click();
 }
 
 // SLICK
@@ -77,4 +77,13 @@ $(document).ready(function () {
 			}
 		]
 	});
+});
+
+document.querySelector('.navv').addEventListener('click', function () {
+    let navLap = document.querySelector('.nav-lap');
+    if (navLap.classList.contains('show')) {
+        navLap.classList.remove('show');
+    } else {
+        navLap.classList.add('show');
+    }
 });
