@@ -11633,9 +11633,9 @@ pre {
   padding: 5rem 0;
 }
 
-.section:nth-child(even) {
+/* .section:nth-child(even) {
   background: white;
-}
+} */
 
 .section.bg-white {
   background-color: #fff;
@@ -11643,4 +11643,15 @@ pre {
 
 .section.bg-gray {
   background: white;
+}
+
+/* Customize individual dots */
+.slick-dots li button::before {
+  
+  color: gray !important; /* Change the color of the dots */
+}
+
+/* Customize the active dot */
+.slick-dots li.slick-active button::before {
+  color: var(--primary) !important; /* Change the color of the active dot */
 }
