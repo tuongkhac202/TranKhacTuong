@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Steller landing page.">
-    <meta name="author" content="Devcrud">
+    <meta name="description" content="Trần Khắc Tường">
+    <meta name="author" content="TranKhacTuong">
     <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline' 'unsafe-eval' *; ">
     <title>Trần Khắc Tường</title>
+    <script src="assets/vendors/jquery/jquery-3.4.1.min.js"></script>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Steller main styles -->
@@ -23,51 +24,46 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <!-- Page navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="bg-clouds" id="bg-clouds">
+        <!-- Page navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testmonial">Achievements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blogs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <!-- <li class="nav-item">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item">
                         <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
                     </li> -->
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- End of page navibation -->
+        </nav>
+        <!-- End of page navibation -->
 
-    <!-- Background Animation -->
-    <div class="background-birds" id="hihihh">
+        <!-- Background Animation -->
         <!-- Page Header -->
-        <header class="header" id="home">
+        <header class="header">
             <div class="container">
                 <div class="infos">
                     <h6 class="subtitle">Xin chào, tôi là</h6>
@@ -134,229 +130,230 @@
             </div>
         </header>
         <!-- End of Page Header -->
+    </div>
 
-        <!-- About section -->
-        <section id="about" class="section mt-3">
-            <div class="container mt-5">
-                <div class="row text-center text-md-left">
-                    <div class="col-md-3">
-                        <img src="assets/imgs/me.jpg" alt="" class="img-thumbnail mb-4">
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/me.jpg" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">Trần Khắc Tường</h6>
+                    <p class="subtitle">PHP/Laravel Website Programmer - UI/UX Designer</p>
+                    <p>Tôi mong muốn tìm kiếm một công việc phù hợp với kỹ năng hiện có của mình và cũng có cơ hội
+                        trau
+                        dồi kỹ năng chuyên môn và thực tiễn. Định hướng của tôi là trở thành một Fullstack
+                        Developer,
+                        Designer và Ui/Ux Designer.</p>
+                    <p>Tôi có kiến thức về các ngôn ngữ lập trình như HTML&CSS, JS, PHP và các framework Laravel,
+                        Bootstrap, cùng các công cụ thiết kế như Photoshop, Illustrator và Figma và nhiều kỹ năng
+                        khác
+                        để tạo ra các trải nghiệm người dùng đáng chú ý. Tôi mong muốn được gia nhập môi trường làm
+                        việc
+                        cống hiến và đầy cảm hứng, nơi tôi có thể phát triển và đóng góp cho công ty.</p>
+                    <button class="btn btn-primary rounded mt-3">XEM THÊM</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Dịch Vụ</h6>
+            <h6 class="section-title mb-4">Công Việc Tôi Làm</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <h5>Web Programming</h5>
+                        </div>
                     </div>
-                    <div class="pl-md-4 col-md-9">
-                        <h6 class="title">Trần Khắc Tường</h6>
-                        <p class="subtitle">PHP/Laravel Website Programmer - UI/UX Designer</p>
-                        <p>Tôi mong muốn tìm kiếm một công việc phù hợp với kỹ năng hiện có của mình và cũng có cơ hội
-                            trau
-                            dồi kỹ năng chuyên môn và thực tiễn. Định hướng của tôi là trở thành một Fullstack
-                            Developer,
-                            Designer và Ui/Ux Designer.</p>
-                        <p>Tôi có kiến thức về các ngôn ngữ lập trình như HTML&CSS, JS, PHP và các framework Laravel,
-                            Bootstrap, cùng các công cụ thiết kế như Photoshop, Illustrator và Figma và nhiều kỹ năng
-                            khác
-                            để tạo ra các trải nghiệm người dùng đáng chú ý. Tôi mong muốn được gia nhập môi trường làm
-                            việc
-                            cống hiến và đầy cảm hứng, nơi tôi có thể phát triển và đóng góp cho công ty.</p>
-                        <button class="btn btn-primary rounded mt-3">XEM THÊM</button>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-crown"></i>
+                            <h5>UI/UX Design</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-mobile"></i>
+                            <h5>Graphic Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-bar-chart"></i>
+                            <h5>SEO</h5>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <!-- End of Sectoin -->
 
-        <!-- Service section -->
-        <section id="service" class="section">
-            <div class="container text-center">
-                <h6 class="subtitle">Dịch Vụ</h6>
-                <h6 class="section-title mb-4">Công Việc Tôi Làm</h6>
-                <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
-
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 mb-4">
-                        <div class="custom-card card border">
-                            <div class="card-body">
-                                <i class="icon ti-desktop"></i>
-                                <h5>Web Programming</h5>
-                            </div>
-                        </div>
+    <!-- Skills section -->
+    <section class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Kỹ Năng</h6>
+            <div class="web-skills mb-5">
+                <h6 class="section-title mb-4">Website Programming</h6>
+                <div class="my-skills d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/HTML-CSS.png" alt="" class="img-fluid" style="width: 200px;">
                     </div>
-                    <div class="col-sm-6 col-md-3 mb-4">
-                        <div class="custom-card card border">
-                            <div class="card-body">
-                                <i class="icon ti-crown"></i>
-                                <h5>UI/UX Design</h5>
-                            </div>
-                        </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/js.png" alt="" class="img-fluid" style="width: 200px;">
                     </div>
-
-                    <div class="col-sm-6 col-md-3 mb-4">
-                        <div class="custom-card card border">
-                            <div class="card-body">
-                                <i class="icon ti-mobile"></i>
-                                <h5>Graphic Design</h5>
-                            </div>
-                        </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/Bootstrap.png" alt="" class="img-fluid" style="width: 200px;">
                     </div>
-                    <div class="col-sm-6 col-md-3 mb-4">
-                        <div class="custom-card card border">
-                            <div class="card-body">
-                                <i class="icon ti-bar-chart"></i>
-                                <h5>SEO</h5>
-                            </div>
-                        </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/React.png" alt="" class="img-fluid" style="width: 200px;">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/WordPress.png" alt="" class="img-fluid" style="width: 200px;">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="assets/imgs/php.png" alt="" class="img-fluid" style="width: 200px;">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/laravel.png" alt="" class="img-fluid" style="width: 200px;">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/mySQL.png" alt="" class="img-fluid" style="width: 200px;">
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End of Sectoin -->
-
-        <!-- Skills section -->
-        <section class="section">
-            <div class="container text-center">
-                <h6 class="subtitle">Kỹ Năng</h6>
-                <div class="web-skills mb-5">
-                    <h6 class="section-title mb-4">Website Programming</h6>
-                    <div class="my-skills d-flex align-items-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/HTML-CSS.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/js.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/Bootstrap.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/React.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/WordPress.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center">
-                            <img src="assets/imgs/php.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/laravel.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/mySQL.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
+            <div class="graphic-skills mt-5 pt-5">
+                <h6 class="section-title mb-4">Graphic & UI/UX</h6>
+                <div class="my-skills d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/PTS.png" alt="" class="img-fluid" style="width: 200px;">
                     </div>
-                </div>
-                <div class="graphic-skills mt-5 pt-5">
-                    <h6 class="section-title mb-4">Graphic & UI/UX</h6>
-                    <div class="my-skills d-flex align-items-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/PTS.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/Ai.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/pr.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/capcut.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/figma.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/canva.png" alt="" class="img-fluid" style="width: 200px;">
-                        </div>
-
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/Ai.png" alt="" class="img-fluid" style="width: 200px;">
                     </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/pr.png" alt="" class="img-fluid" style="width: 200px;">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/capcut.png" alt="" class="img-fluid" style="width: 200px;">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/figma.png" alt="" class="img-fluid" style="width: 200px;">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/canva.png" alt="" class="img-fluid" style="width: 200px;">
+                    </div>
+
                 </div>
             </div>
-        </section>
-        <!-- End of Skills sections -->
+        </div>
+    </section>
+    <!-- End of Skills sections -->
 
-        <!-- Portfolio section -->
-        <section id="portfolio" class="section">
-            <div class="container text-center">
-                <h6 class="subtitle">Dự Án</h6>
-                <h6 class="section-title mb-4">Những Dự Án Tôi Đã Thực Hiện</h6>
-                <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+    <!-- Portfolio section -->
+    <section id="portfolio" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Dự Án</h6>
+            <h6 class="section-title mb-4">Những Dự Án Tôi Đã Thực Hiện</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
 
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="img-wrapper">
-                            <img src="assets/imgs/up.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-infos">
-                                    <h5>UPBUSINESS</h5>
-                                    <a href="https://upbusiness.vn"><i class="ti-zoom-in"></i></a>
-                                    <a href="https://upbusiness.vn"><i class="ti-link"></i></a>
-                                </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/up.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>UPBUSINESS</h5>
+                                <a href="https://upbusiness.vn"><i class="ti-zoom-in"></i></a>
+                                <a href="https://upbusiness.vn"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="img-wrapper">
-                            <img src="assets/imgs/yennam.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-infos">
-                                    <h5>YENNAMLAWFIRM</h5>
-                                    <a href="https://yennamlawfirm.vn"><i class="ti-zoom-in"></i></a>
-                                    <a href="https://yennamlawfirm.vn"><i class="ti-link"></i></a>
-                                </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/yennam.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>YENNAMLAWFIRM</h5>
+                                <a href="https://yennamlawfirm.vn"><i class="ti-zoom-in"></i></a>
+                                <a href="https://yennamlawfirm.vn"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="img-wrapper">
-                            <img src="assets/imgs/finom.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-infos">
-                                    <h5>FINOM</h5>
-                                    <a href="https://finom.vn"><i class="ti-zoom-in"></i></a>
-                                    <a href="https://finom.vn"><i class="ti-link"></i></a>
-                                </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/finom.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>FINOM</h5>
+                                <a href="https://finom.vn"><i class="ti-zoom-in"></i></a>
+                                <a href="https://finom.vn"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="img-wrapper">
-                            <img src="assets/imgs/smartghotel.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-infos">
-                                    <h5>SMARTGHOTEL</h5>
-                                    <!-- <a href="#"><i class="ti-zoom-in"></i></a>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/smartghotel.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>SMARTGHOTEL</h5>
+                                <!-- <a href="#"><i class="ti-zoom-in"></i></a>
                                 <a href="#"><i class="ti-link"></i></a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="img-wrapper">
-                            <img src="assets/imgs/mydung.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-infos">
-                                    <h5>HOTELMYDUNG</h5>
-                                    <a href="https://hotelmydung.com"><i class="ti-zoom-in"></i></a>
-                                    <a href="https://hotelmydung.com"><i class="ti-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="img-wrapper">
-                            <img src="assets/imgs/mivi.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay-infos">
-                                    <h5>MIVICOMPOSITE</h5>
-                                    <a href="https://mivicomposite.vn"><i class="ti-zoom-in"></i></a>
-                                    <a href="https://mivicomposite.vn"><i class="ti-link"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/mydung.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>HOTELMYDUNG</h5>
+                                <a href="https://hotelmydung.com"><i class="ti-zoom-in"></i></a>
+                                <a href="https://hotelmydung.com"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/mivi.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>MIVICOMPOSITE</h5>
+                                <a href="https://mivicomposite.vn"><i class="ti-zoom-in"></i></a>
+                                <a href="https://mivicomposite.vn"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- End of portfolio section -->
 
-        <!-- Testmonial Section -->
-        <!-- <section id="testmonial" class="section">
+        </div>
+    </section>
+    <!-- End of portfolio section -->
+
+    <!-- Testmonial Section -->
+    <!-- <section id="testmonial" class="section">
             <div class="container text-center">
                 <h6 class="subtitle">Thành Tựu</h6>
                 <h6 class="section-title mb-4">Thành Tựu Tiêu Biểu Của Tôi</h6>
@@ -402,10 +399,10 @@
                 </div>
             </div>
         </section> -->
-        <!-- End of testmonial section -->
+    <!-- End of testmonial section -->
 
-        <!-- Blog Section -->
-        <!-- <section id="blog" class="section">
+    <!-- Blog Section -->
+    <!-- <section id="blog" class="section">
             <div class="container text-center">
                 <h6 class="subtitle">Bài Viết</h6>
                 <h6 class="section-title mb-4">Những Thông Tin Mới Nhất</h6>
@@ -467,87 +464,87 @@
             </div>
         </section> -->
 
-        <!-- Hire me section -->
-        <section class="bg-gray p-0 section">
-            <div class="container">
-                <div class="card bg-primary">
-                    <div class="card-body text-light">
-                        <div class="row align-items-center">
-                            <div class="col-sm-9 text-center text-sm-left">
-                                <h5 class="mt-3">Rất vui khi được hợp tác</h5>
-                                <p class="mb-3">Tôi sẽ tạo ra sản phẩm tốt nhất cho bạn.</p>
-                            </div>
-                            <div class="col-sm-3 text-center text-sm-right">
-                                <button class="btn btn-light rounded">Liên Hệ Tôi!</button>
-                            </div>
+    <!-- Hire me section -->
+    <section class="bg-gray p-0 section">
+        <div class="container">
+            <div class="card bg-primary">
+                <div class="card-body text-light">
+                    <div class="row align-items-center">
+                        <div class="col-sm-9 text-center text-sm-left">
+                            <h5 class="mt-3">Rất vui khi được hợp tác</h5>
+                            <p class="mb-3">Tôi sẽ tạo ra sản phẩm tốt nhất cho bạn.</p>
+                        </div>
+                        <div class="col-sm-3 text-center text-sm-right">
+                            <button class="btn btn-light rounded">Liên Hệ Tôi!</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End od Hire me section. -->
+        </div>
+    </section>
+    <!-- End od Hire me section. -->
 
-        <!-- Contact Section -->
-        <section id="contact" class="position-relative section">
-            <div class="container text-center">
-                <h6 class="subtitle">Liên Hệ</h6>
-                <h6 class="section-title mb-4">Hãy Liên Hệ Tôi</h6>
-                <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle">Liên Hệ</h6>
+            <h6 class="section-title mb-4">Hãy Liên Hệ Tôi</h6>
+            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
 
-                <div class="contact text-left">
-                    <div class="form">
-                        <!-- <h6 class="subtitle">Có sẵn 24/7</h6> -->
-                        <h6 class="section-title mb-4">Liên Lạc</h6>
-                        <form id="contactForm">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="email" name="email"
-                                    aria-describedby="emailHelp" placeholder="Nhập email của bạn" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Tên của bạn"
-                                    required>
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" id="message" cols="30" rows="5" class="form-control"
-                                    placeholder="Tin nhắn" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-block rounded w-lg">Gửi</button>
-                        </form>
+            <div class="contact text-left">
+                <div class="form">
+                    <!-- <h6 class="subtitle">Có sẵn 24/7</h6> -->
+                    <h6 class="section-title mb-4">Liên Lạc</h6>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email"
+                                aria-describedby="emailHelp" placeholder="Nhập email của bạn" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Tên của bạn"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" cols="30" rows="5" class="form-control"
+                                placeholder="Tin nhắn" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Gửi</button>
+                    </form>
+                </div>
+                <div class="contact-infos">
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Địa chỉ</h5>
+                            <p>Ninh Kiều, Cần Thơ</p>
+                        </div>
                     </div>
-                    <div class="contact-infos">
-                        <div class="item">
-                            <i class="ti-location-pin"></i>
-                            <div class="">
-                                <h5>Địa chỉ</h5>
-                                <p>Ninh Kiều, Cần Thơ</p>
-                            </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Số điện thoại</h5>
+                            <p>(+84) 394-798-218</p>
                         </div>
-                        <div class="item">
-                            <i class="ti-mobile"></i>
-                            <div>
-                                <h5>Số điện thoại</h5>
-                                <p>(+84) 394-798-218</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <i class="ti-email"></i>
-                            <div class="mb-0">
-                                <h5>Email </h5>
-                                <p>trankhactuong202@gmail.com</p>
-                            </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email </h5>
+                            <p>trankhactuong202@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7858.133240483657!2d105.743182!3d10.011356000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1690810844546!5m2!1svi!2s"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
-        <!-- End of Contact Section -->
-    </div>
+        </div>
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7858.133240483657!2d105.743182!3d10.011356000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1690810844546!5m2!1svi!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- End of Contact Section -->
+
 
     <!-- Page Footer -->
     <footer class="page-footer">
@@ -584,79 +581,21 @@
     <!-- steller js -->
     <script src="assets/js/steller.js"></script>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="assets/vendors/slick-1.8.1/slick/slick.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.clouds.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $('.my-skills').slick({
-                infinite: true,
-                speed: 1500,
-                slidesToShow: 5,
-                slidesToScroll: 5,
-                dots: true,
-                autoplay: true,
-                arrows: false,
-                autoplaySpeed: 4000,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 5,
-                            slidesToScroll: 5,
-                            infinite: true,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 750,
-                        settings: {
-                            slidesToShow: 4,
-                            slidesToScroll: 4
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 3
-                        }
-                    }
-                ]
-            });
-        });
-
-
+        VANTA.CLOUDS({
+            el: "#bg-clouds",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            speed: 0.50
+        })
     </script>
-
-    <script>
-        $('#contactForm').submit(function (event) {
-            event.preventDefault();
-
-            var formData = {
-                email: $('#email').val(),
-                name: $('#name').val(),
-                message: $('#message').val()
-            };
-
-            $.ajax({
-                type: 'POST',
-                url: '/send-email',
-                data: formData,
-                success: function (response) {
-                    alert('Email đã được gửi thành công!');
-                    $('#contactForm')[0].reset();
-                },
-                error: function (error) {
-                    console.error('Error occurred: ', error);
-                    alert('Có lỗi xảy ra khi gửi email. Vui lòng thử lại sau.');
-                }
-            });
-        });
-    </script>
-
-
 
 </body>
 

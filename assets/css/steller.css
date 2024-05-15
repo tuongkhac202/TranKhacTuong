@@ -11346,7 +11346,8 @@ pre {
   min-height: 80px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #fff;
+  background: #fff0;
+  transition: 1s;
 }
 
 .navbar .navbar-brand img {
@@ -11377,6 +11378,7 @@ pre {
 
 .navbar.affix {
   box-shadow: 0 6px 15px rgba(206, 212, 218, 0.3);
+  background: #ffffffd1;
 }
 
 @media (max-width: 767.98px) {
