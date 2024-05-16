@@ -33,11 +33,11 @@ $(document).ready(function () {
 
 // DOWNLOAD CV
 function downloadCV() {
-    var file = document.getElementById("myCV");
-    var link = document.createElement("a");
-    link.href = file.src;
-    link.target = "_blank";
-    link.click();
+	var file = document.getElementById("myCV");
+	var link = document.createElement("a");
+	link.href = file.src;
+	link.download = "CV-Trần-Khắc-Tường.pdf";
+	link.click();
 }
 
 // SLICK
@@ -79,11 +79,35 @@ $(document).ready(function () {
 	});
 });
 
+// open/close nav mobile
 document.querySelector('.navv').addEventListener('click', function () {
-    let navLap = document.querySelector('.nav-lap');
-    if (navLap.classList.contains('show')) {
-        navLap.classList.remove('show');
-    } else {
-        navLap.classList.add('show');
-    }
+	let navLap = document.querySelector('.nav-lap');
+	if (navLap.classList.contains('show')) {
+		navLap.classList.remove('show');
+	} else {
+		navLap.classList.add('show');
+	}
 });
+
+// send mail
+(function () {
+	emailjs.init("B6M287GehhkccduCf");
+})();
+window.onload = function () {
+	document.getElementById('contactForm').addEventListener('submit', function (event) {
+		event.preventDefault();
+		emailjs.sendForm('service_9xao71l', 'template_ew2bnm6', this)
+			.then(() => {
+				console.log('SUCCESS!');
+				alert('Email đã được gửi thành công!');
+				document.getElementById('name').value = '';
+				document.getElementById('email').value = '';
+				document.getElementById('message').value = '';
+			}, (error) => {
+				console.log('FAILED...', error);
+				alert('Gửi email thất bại. Vui lòng thử lại.');
+			});
+	});
+}
+
+
