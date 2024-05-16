@@ -33,11 +33,11 @@ $(document).ready(function () {
 
 // DOWNLOAD CV
 function downloadCV() {
-	var file = document.getElementById("myCV");
-	var link = document.createElement("a");
-	link.href = file.src;
-	link.download = "CV-Trần-Khắc-Tường.pdf";
-	link.click();
+    var file = document.getElementById("myCV");
+    var link = document.createElement("a");
+    link.href = file.src;
+    link.target = "_blank";
+    link.click();
 }
 
 // SLICK
